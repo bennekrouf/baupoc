@@ -1,0 +1,25 @@
+{
+  "generator-jhipster": {
+    "baseName": "bau",
+    "packageName": "com.bau",
+    "packageFolder": "com/bau",
+    "authenticationType": "session",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "no",
+    "useSass": true,
+    "buildTool": "maven",
+    "frontendBuilder": "gulp",
+    "enableTranslation": true,
+    "enableSocialSignIn": false,
+    "rememberMeKey": "226a299b619817ec7c9fd2466f1943c75968f998",
+    "testFrameworks": [
+      "gatling",
+      "protractor"
+    ]
+  }
+}

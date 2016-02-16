@@ -1,0 +1,10 @@
+bau-postgresql:
+  container_name: bau-postgresql
+  image: postgres:9.4.5
+  # volumes:
+  #   - ~/volumes/jhipster/bau/postgresql/:/var/lib/postgresql/
+  environment:
+    - POSTGRES_USER=bau
+    - POSTGRES_PASSWORD=
+  ports:
+    - "5432:5432"
